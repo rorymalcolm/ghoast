@@ -17,6 +17,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		println("wassdd")
 		ast.Print(fset, f)
 	}
 }
